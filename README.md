@@ -7,6 +7,7 @@ Web ini berisikan 4 Halaman Utama
   - Halmanan 2 "Profile Saya"
   - Halaman 3 "Project Saya"
   - Halaman 4 "Hobi & Pendidikan"
+
 Dibuat dengan :
   - HTML sebagia struktur utama halaman
   - CSS native untuk styling header, footer, dan card
