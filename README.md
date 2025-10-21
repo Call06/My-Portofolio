@@ -1,5 +1,3 @@
-Project-UTS-Pemograman-Berbasis-Platfrom
-Muhammad Faisal Daud TI 2024B 24051204046
 Website Portofolio yang saya buat ini merupakan hasil dari pekerjaanyang ditujukan untuk memenuhi Penugasan Ujian Tengah Semester amta kuliah pemograman Berbasis Platfrom, yang diampu oleh Bapak Rifqi Abdillah, S.Tr.T., M.Kom.
 
 Web ini berisikan 4 Halaman Utama
