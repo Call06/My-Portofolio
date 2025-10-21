@@ -1,4 +1,4 @@
-Website Portofolio yang saya buat ini merupakan hasil dari pekerjaanyang ditujukan untuk memenuhi Penugasan Ujian Tengah Semester amta kuliah pemograman Berbasis Platfrom, yang diampu oleh Bapak Rifqi Abdillah, S.Tr.T., M.Kom.
+Website Portofolio yang saya buat ini merupakan hasil dari pekerjaan yang ditujukan untuk memenuhi Penugasan Ujian Tengah Semester amta kuliah pemograman Berbasis Platfrom, yang diampu oleh Bapak Rifqi Abdillah, S.Tr.T., M.Kom.
 
 Web ini berisikan 4 Halaman Utama
   - Halaman 1 "Home Page"
