@@ -1,0 +1,117 @@
+body, .custom-header, .custom-footer, .custom-card, input, textarea, button {
+  transition: background 300ms ease, color 300ms ease, border-color 300ms ease, box-shadow 300ms ease;
+}
+
+main, section {
+  padding-bottom: 80px;
+}
+
+.custom-header {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.custom-footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+  border-top: 1px solid #334155;
+  color: #94a3b8;
+}
+
+.custom-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.custom-card img {
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.custom-card img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 25px 5px rgba(59, 130, 246, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px 10px rgba(59, 130, 246, 0.8);
+  }
+}
+
+.glow-pulse {
+  animation: pulseGlow 3s infinite;
+}
+
+body[data-theme="dark"] {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+body[data-theme="dark"] .custom-header {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+body[data-theme="dark"] .custom-footer {
+  background: #0f172a;
+  color: #94a3b8;
+  border-top: 1px solid #334155;
+}
+
+body[data-theme="dark"] .custom-card {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+body[data-theme="dark"] #heroSection {
+  background: linear-gradient(to bottom, #0f172a, #000000, #1e293b);
+  color: #ffffff;
+}
+
+body[data-theme="light"] {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+body[data-theme="light"] .custom-header {
+  background: linear-gradient(90deg, #ffffff, #f1f5f9);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body[data-theme="light"] .custom-footer {
+  background: #f8fafc;
+  color: #475569;
+  border-top: 1px solid #e2e8f0;
+}
+
+body[data-theme="light"] .custom-card {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+body[data-theme="light"] #heroSection {
+  background: linear-gradient(to bottom, #ffffff, #f8fafc, #e2e8f0);
+  color: #0f172a;
+}
+
+

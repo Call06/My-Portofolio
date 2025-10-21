@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white">
+<body class="bg-gray-900 text-white font-sans transition-all duration-500 h-screen flex flex-col" data-theme="dark">
+  <header class="custom-header">
+    <nav class="flex justify-between items-center px-6 py-4 w-full">
+      <h1 class="text-2xl font-bold text-blue-400">🚀 Enjoy With My Portfolio</h1>
+      <ul class="flex gap-6">
+        <li><a href="index.html" class="hover:text-blue-400">Home</a></li>
+        <li><a href="Profile.html" class="hover:text-blue-400"> Profile</a></li>
+        <li><a href="projects.html" class="text-blue-400">Projects</a></li>
+        <li><a href="Hobi.html" class="hover:text-blue-400">Hobi & Pendidikan</a></li>
+      </ul>
+      <button id="darkModeToggle" class="ml-4 p-2 bg-gray-800 rounded-full hover:bg-gray-700 transition" aria-label="Toggle theme" title="Toggle theme">
+        <i class="fas fa-moon text-yellow-400"></i>
+      </button>
+    </nav>
+  </header>
+
+
+  <section class="py-20 px-5 text-center">
+    <h2 class="text-blue-400 text-4xl font-bold mb-10">My Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-10">
+      <div class="custom-card">
+        <img src="WhatsApp Image 2025-10-20 at 00.16.21.jpeg" alt="Project 1" class="rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Runtara</h3>
+        <p class="text-gray-400 mt-2">Runtara adalah Platfrom e-commerce yang berfokus dalam model bisnis marketplace. UI/UX ini sangat relavan dengan perkembangan zaman sekarang, dan saya mengambil, memodifikasi, dan menambahkan dari platfrom" lain yang sudah terkenal dan ramai.</p>
+      </div>
+      <div class="custom-card">
+        <img src="download (2).jpg" alt="Project 2" class="rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Smart Library System</h3>
+        <p class="text-gray-400 mt-2">Program Smart Library System adalah aplikasi manajemen perpustakaan berbasis C++ yang menggunakan berbagai struktur data untuk mengelola data pengguna dan buku secara efisien. Sistem ini mendukung fitur login & registrasi pengguna (menggunakan hash table), manajemen data buku (dengan circular double linked list), serta fitur tambahan seperti pencarian, pengurutan berdasarkan rating, antrian peminjaman (queue), riwayat pengembalian (stack), dan rekomendasi buku berdasarkan kategori (rekursif).</p>
+      </div>
+      <div class="custom-card">
+        <img src="museum.jpg" alt="Project 3" class="rounded-t-lg">
+        <h3 class="text-xl font-semibold mt-4">Virtual Museum Tour Guide</h3>
+        <p class="text-gray-400 mt-2">Program ini merupakan simulasi tur virtual di dalam museum berbasis console application yang dibuat menggunakan bahasa pemrograman C++. Aplikasi ini mengintegrasikan berbagai struktur data dan algoritma untuk mensimulasikan sistem interaktif bagi pengguna yang ingin menjelajahi museum secara digital..</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="custom-footer">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+      <p class="text-sm mb-2 md:mb-0">© 2025 Muhammad Faisal Daud | Informatics Portfolio</p>
+      <div class="flex space-x-4">
+        <a href="https://github.com/Call06" target="_blank" class="hover:text-blue-400 transition">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammadfaisaldaud" target="_blank" class="hover:text-blue-400 transition">
+          <i class="fab fa-linkedin text-xl"></i>
+        </a>
+        <a href="https://www.instagram.com/mfaisd" target="_blank" class="hover:text-pink-500 transition">
+          <i class="fab fa-instagram text-xl"></i>
+        </a>
+        <a href="mailto:muhammadfaisal06@gmail.com" class="hover:text-yellow-400 transition">
+          <i class="fas fa-envelope text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="darkmode.js"></script>
+</body>
+</html>

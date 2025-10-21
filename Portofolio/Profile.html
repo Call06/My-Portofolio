@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray text-white font-sans">
+<body class="bg-gray text-white font-sans transition-all duration-500 h-screen flex flex-col" data-theme="dark">
+  <header class="custom-header">
+    <nav class="flex justify-between items-center px-6 py-4 w-full">
+      <h1 class="text-2xl font-bold text-blue-400">🚀 Enjoy With My Portfolio</h1>
+      <ul class="flex gap-6">
+        <li><a href="index.html" class="hover:text-blue-400">Home</a></li>
+        <li><a href="Profile.html" class="text-blue-400"> Profile</a></li>
+        <li><a href="projects.html" class="hover:text-blue-400">Projects</a></li>
+        <li><a href="Hobi.html" class="hover:text-blue-400">Hobi & Pendidikan</a></li>
+      </ul>
+      <button id="darkModeToggle" class="ml-4 p-2 bg-gray-800 rounded-full hover:bg-gray-700 transition" aria-label="Toggle theme" title="Toggle theme">
+        <i class="fas fa-moon text-yellow-400"></i>
+      </button>
+    </nav>
+  </header>
+  
+<main class="max-w-6xl mx-auto mt-20 px-5 py-1 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+  <section class="space-y-6">
+    <h2 class="text-3xl font-bold text-blue-400 border-b-1 border-blue-600 inline-block pb-2">
+      About Me
+    </h2>
+    <p class="text-gray-300 leading-relaxed">
+      HORASSSSS! My name is <span class="text-blue-400 font-semibold">Muhammad Faisal Daud</span>, a third-semester informatics engineering student 
+      focusing on web development and social issues.I have a strong interest in futuristic interface design,
+      artificial intelligence (AI), and digital exploration, as well as social issues in society.
+    </p>
+    <p class="text-gray-400 italic">
+      <b>“Setiap masalah pasti ada jalan keluarnya, Bersama kesulitan pasti ada kemudahan.”</b>
+    </p>
+    
+    <table class="table-auto text-gray-300 w-full border-collapse border border-gray-700 rounded-lg overflow-hidden">
+      <tbody>
+        <tr class="bg-gray-800">
+          <td class="p-3 font-semibold text-blue-300">Nama</td>
+          <td class="p-3">Muhammad Faisal Daud</td>
+        </tr>
+        <tr class="bg-gray-900">
+          <td class="p-3 font-semibold text-blue-300">Program Studi</td>
+          <td class="p-3">S1 Teknik Informatika</td>
+        </tr>
+        <tr class="bg-gray-800">
+          <td class="p-3 font-semibold text-blue-300">Kampus</td>
+          <td class="p-3">Universitas Negeri Surabaya</td>
+        </tr>
+        <tr class="bg-gray-900">
+          <td class="p-3 font-semibold text-blue-300">Bidang</td>
+          <td class="p-3">Web Development, AI, dan Desain Antarmuka</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="flex justify-center items-center">
+    <div class="relative w-80 h-96 md:w-[400px] md:h-[500px] rounded-xl overflow-hidden glow-pulse hover:scale-105 transition-transform duration-300">
+        <img src="WhatsApp Image 2025-10-20 at 00.02.03.jpeg" alt="Foto Profil" class="w-full h-full object-cover object-center" />
+      <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent"></div>
+    </di>
+  </section>
+</main>
+
+  <footer class="custom-footer">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+      <p class="text-sm mb-2 md:mb-0">© 2025 Muhammad Faisal Daud | Informatics Portfolio</p>
+      <div class="flex space-x-4">
+        <a href="https://github.com/Call06" target="_blank" class="hover:text-blue-400 transition">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammadfaisaldaud" target="_blank" class="hover:text-blue-400 transition">
+          <i class="fab fa-linkedin text-xl"></i>
+        </a>
+        <a href="https://www.instagram.com/mfaisd" target="_blank" class="hover:text-pink-500 transition">
+          <i class="fab fa-instagram text-xl"></i>
+        </a>
+        <a href="mailto:muhammadfaisal06@gmail.com" class="hover:text-yellow-400 transition">
+          <i class="fas fa-envelope text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="darkmode.js"></script>
+</body>
+</html>
